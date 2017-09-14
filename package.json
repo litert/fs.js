@@ -1,0 +1,35 @@
+{
+  "name": "@litert/fs",
+  "version": "0.1.0",
+  "description": "A set of file system APIs in async/await styles.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rm -rf dist",
+    "test": "node ./dist/test.js"
+  },
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "litert",
+    "lrt",
+    "fs"
+  ],
+  "author": "Fenying",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litert/fs.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litert/fs.js/issues"
+  },
+  "homepage": "https://github.com/litert/fs.js#readme",
+  "dependencies": {
+    "@litert/core": "git+https://github.com/litert/core.js.git#v0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.10",
+    "typescript": "^2.5.2"
+  }
+}
